@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;  /*para moverlo a la derecha el menu*/
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cambia el cursor a una manita al pasar sobre los enlaces de la barra de navegación */
+.navbar a {
+    cursor: pointer;
+}
+
+/* Cambia el color del texto cuando el cursor está sobre el enlace */
+.navbar a:hover {
+    color: red; 
+}
+
+
